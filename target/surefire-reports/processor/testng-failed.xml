@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [processor]">
+  <test name="Surefire test(failed)" preserve-order="false">
+    <classes>
+      <class name="org.b3log.solo.processor.IndexProcessorTestCase">
+        <methods>
+          <include name="register"/>
+          <include name="showKillBrowser"/>
+          <include name="init"/>
+          <include name="showIndex"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.BlogProcessorTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.PageProcessorTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.FeedProcessorTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.CommentProcessorTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.ArticleProcessorTestCase">
+        <methods>
+          <include name="init"/>
+          <include name="beforeClass"/>
+          <include name="showArchiveArticles"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.StatProcessorTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.InitProcessorTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.ErrorProcessorTestCase">
+        <methods>
+          <include name="showErrorPage"/>
+          <include name="init"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.SitemapProcessorTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.TagProcessorTestCase">
+        <methods>
+          <include name="init"/>
+          <include name="beforeClass"/>
+          <include name="showTagArticles"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.console.CategoryConsoleTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.LoginProcessorTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="org.b3log.solo.processor.CaptchaProcessorTestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
